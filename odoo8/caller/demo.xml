@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <!-- Demo Data for States -->
+    <record model="caller.state" id="caller_state">
+        <field name="name">Abia</field>
+        <field name="x_statecap">Umuahia</field>
+    </record>
+        <record model="caller.camp" id="callercamp1">
+            <field name="name">Camp 5</field>
+            <field name="x_campleader_id">Tompolo</field>
+            <field name="description">Camp Located in Delta</field>
+        </record>
+
+    </data>
+</openerp>
