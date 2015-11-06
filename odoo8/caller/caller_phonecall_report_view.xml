@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <menuitem name="Phone Calls Analysis"
+                  groups="base.group_sale_salesman"
+                  action="crm.action_report_crm_phonecall"
+                  id="crm.menu_report_caller_phonecalls_tree" parent="caller.caller_case_phone_menu" sequence="2"/>
+
+    </data>
+</openerp>
