@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <record id="base.main_company" model="res.company">
+            <field name="name">GTS Ltd</field>
+            <field name="rml_header1"></field>
+            <field name="currency_id" ref="base.HRK"/>
+            <field name="street">Suite A11, Valley Mall</field>
+            <field name="zip">11111</field>
+            <field name="city">Wuse 2</field>
+            <field name="country_id" ref="base.hr"/>
+            <field name="email">info@gtsng.com</field>
+            <field name="phone">+234 80787873773</field>
+            <field name="fax">+385 1 555 30 21</field>
+            <field name="website">www.gts.com.ng</field>
+            <field name="vat">HR12345678910</field>
+            <field name="company_registry">1234567</field>
+
+        </record>
+    </data>
+</openerp>

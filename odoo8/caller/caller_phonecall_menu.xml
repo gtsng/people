@@ -18,7 +18,7 @@
                   parent="caller.main_caller_menu" sequence="6"/>
 
         <!-- PHONE CALLS (menu) Spec in crm but menu moved to caller -->
-        <menuitem name="Logged Calls" id="crm.menu_crm_case_phone_inbound"
+        <menuitem name="Logged Calls" id="menu_caller_case_phone_inbound"
                   parent="caller_menu"
                   action="crm.crm_case_categ_phone_incoming0" sequence="1"/>
         <!--

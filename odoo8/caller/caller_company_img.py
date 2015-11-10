@@ -4,7 +4,7 @@
 from openerp import api, fields, models
 
 
-class res_company(models, Model):
+class res_company(models.Model):
     _inherit = "res.company"
     _name = "res.company"
 

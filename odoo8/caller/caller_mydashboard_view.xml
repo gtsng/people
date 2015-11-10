@@ -4,7 +4,7 @@
 
         <!-- Relocate the dashboard from Reporting parent menu -->
         <menuitem
-                id="board.menu_board_my_dash"
+                id="menu_board_my_dash"
                 parent="caller.caller_menu"
                 action="board.open_board_my_dash_action"
                 sequence="0"/>
